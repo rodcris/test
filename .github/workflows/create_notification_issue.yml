@@ -7,7 +7,7 @@ on:
 
 jobs:
   notify_on_comment:
-  runs-on: ubuntu-latest
-  steps:
-    - name: Notificar a Dave
-      run: echo "Se ha creado un comentario en un problema. ¡Notifica a Dave!"
+    runs-on: e16e66fa548c
+    steps:
+      - name: Notificar a Dave
+        run: echo "Se ha creado un comentario en un problema. ¡Notifica a Dave!"
